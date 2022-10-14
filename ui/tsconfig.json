@@ -1,0 +1,22 @@
+{
+  "extends": "../tsconfig.json",
+  "include": [
+    "src",
+    "typings"
+  ],
+  "exclude": ["types-temp"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "./types-temp",
+    "paths": {
+      "~/*": [
+        "src/*"
+      ],
+      "types": [
+        "node",
+        "cypress",
+        "vue-router"
+      ]
+    }
+  }
+}

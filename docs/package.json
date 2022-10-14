@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "NUXT_PORT=3002 nuxt dev",
+    "clean": "nuxi clean",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "dependencies": {
+    "@unocss/nuxt": "^0.45.29",
+    "unocss": "^0.45.29",
+    "vinicunca": "workspace:^"
+  },
+  "devDependencies": {
+    "@nuxt/content": "^2.1.1",
+    "nuxt": "^3.0.0-rc.11"
+  }
+}
